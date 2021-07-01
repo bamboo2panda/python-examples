@@ -1,0 +1,12 @@
+DEBUG:root:Enter in the main function: name = pavel 
+DEBUG:root:Enter in the main function: name = pavel 
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): google.com:443
+DEBUG:urllib3.connectionpool:https://google.com:443 "GET / HTTP/1.1" 301 220
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.com:443
+DEBUG:urllib3.connectionpool:https://www.google.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:root:Enter in the main function: name = pavel 
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): google.com:443
+DEBUG:urllib3.connectionpool:https://google.com:443 "GET / HTTP/1.1" 301 220
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.com:443
+DEBUG:urllib3.connectionpool:https://www.google.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:root:Enter in the main function: name = pavel 
