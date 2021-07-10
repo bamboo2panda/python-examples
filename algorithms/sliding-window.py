@@ -1,7 +1,7 @@
 import math
 
 
-# Найти максимальную подмассив с максимальной суммой
+# Найти подмассив с максимальной суммой
 def find_max_subarray(arr: list, length: int) -> int:
     max_value = -math.inf
     current_running_summ = 0
