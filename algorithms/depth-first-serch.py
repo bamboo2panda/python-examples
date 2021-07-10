@@ -32,8 +32,8 @@ def walk2(tree, stack):
         node = stack.pop()
         if node is not None:
             print(node)
-            stack.append(node.right)
             stack.append(node.left)
+            stack.append(node.right)
 
 my_tree = Node('A', Node('B', Node('D'), Node('E')), Node('C', Node('F'), Node('G')))
 
