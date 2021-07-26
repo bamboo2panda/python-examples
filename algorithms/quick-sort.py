@@ -55,3 +55,32 @@ assert a7 == [-2, -1, 0, 1, 2, 3, 4]
 assert a8 == [1, 2, 3, 4, 5, 6, 7]
 assert a9 == [2, 2, 2, 2, 2, 2, 2]
 
+
+
+
+
+
+
+
+def func(number: str) -> str:
+    numbers_list = list(numbers)
+    number_of_tail_nines = 0
+    while i in range(len(numbers_list)):
+        if numbers_list[-i] == 9:
+            number_of_tail_nines = i
+    start = a[:len(numbers_lnumberist)-i]
+    end = int(a[:-])
+    end += 1
+    return start + end
+
+
+def func(number: str) -> str:
+    numbers_list = list(numbers)
+    number_of_tail_nines = 0
+    while i in range(1, len(numbers_list) + 1):
+        if numbers_list[-i] == '9':
+            number_of_tail_nines = i
+    start = numbers_list[:len(numbers_list)-number_of_tail_nines]
+    end = int(numbers_list[:-number_of_tail_nines])
+    end += 1
+    return start + end

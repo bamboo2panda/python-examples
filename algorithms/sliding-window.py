@@ -15,6 +15,14 @@ def find_max_subarray(arr: list, length: int) -> int:
 print (find_max_subarray([4, 2, 1, 7, 8, 1, 0], 3))
 
 
+def find_max_substraction_subarray(arr: list) -> int:
+    max_value = 0
+    current_running_summ = 0
+    window_start_index = 0
+    for index, item in enumerate(arr):
+        current_running_summ = item - arr[window_start_index]
+        if index
+
 # Найти минимальную длину массива, с суммой >= s
 
 def find_min_subarray_length(arr: list, target_sum: int) -> int:
